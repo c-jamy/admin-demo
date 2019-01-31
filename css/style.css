@@ -1,0 +1,158 @@
+body{
+	font-size: 62.5%;
+}
+.in-all{
+	width: 100%;
+	height: 860px;
+	font-size: 1.2em;
+}
+button{
+	background-color: rgba(0,0,0,0);
+	border: none;
+	outline: none;
+}
+a {
+  color: #a0f6aa;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:link    {}
+a:visited {}
+a:hover   {color:brown;text-decoration: none;}
+a:active  {}
+select{
+	width: 40px;
+	}
+.top{
+	/*width: 100%;*/
+	height: 5%;
+	margin-top: 20px;
+	background-color: rgb(247,247,247);
+	display: flex;
+	line-height: 43px;
+	align-items:center;
+}
+.toggle-menu{
+	font-size: 1.4em;
+	margin-right: 20px;
+	}
+.web-admin{
+	width: 10%;
+	height: 80%;
+	background-color: rgb(28,175,154);
+	line-height: 80%;
+	border-radius:3px 3px ;
+	margin-left: 20px;
+	}
+.content{
+	width: 100%;
+	height: 820px;
+	display: flex;
+	font-size: 1em;
+	color: white;
+}
+/*主菜单*/
+.content-menu{
+	width: 12%;
+	min-width: 180px;
+	background-color: rgb(29,41,57);
+}
+/*主菜单/
+.content-menu ul {
+  /* by default hide all sub menus */
+  /*display: none;*/
+}
+/*管理*/
+.content-menu li {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  list-style: none;
+  
+}
+.admin-ul-li{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5px;
+	}
+.content-menu input[type=checkbox] {
+	  /* hide native checkbox */
+	  position: absolute;
+	  opacity: 0;
+	}
+.ul-btn{
+	height: 25px;
+	background-color: rgb(28,175,154);
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+	border-radius: 3px 3px;
+	}
+.admin-ul-li ul{
+	width: 80%;
+	margin-left:10% ;
+	display: none;
+	}
+.li-btn{
+	width: 100%;
+	margin-top: 5px;
+	}
+.min-ul{
+	width: 80%;
+	margin-left:10% ;
+	}	
+.min-ul li{
+	margin-top: 3px;
+	}
+.show-listA{
+	font-size: 0.8em;
+	}
+
+
+
+.content-table{
+	width:82%;
+	margin-left: 3%;
+	font-size: 1em;
+	color: black;
+}
+.content-table a{ 
+	color: blue;
+}
+.content-table table{
+	width:80%;
+	margin-left: 3%;
+	border: 1px solid gainsboro;
+}
+.ctrl-btn{
+	width: 15%;
+	height: 40px;
+	display: flex;
+	margin-left: 72%;
+	}
+.content-table button{
+		width: 60px;
+		height: 30px;
+		margin-top: 5px;
+		margin-left: 5px;
+		background-color: rgb(221,221,221);
+		border: none;
+		border-radius: 3px 3px;
+	}
+.ctrl-page{
+	width: 30%;
+	height: 40px;
+	display: flex;
+	margin-left: 62%;
+	}
+.next .last{
+	color: lightcoral;
+}
+.show-data{
+	width: 30%;
+	height: 40px;
+	display: flex;
+	margin-left: 35%;
+	align-items: center;
+	}
